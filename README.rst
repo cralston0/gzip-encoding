@@ -17,11 +17,11 @@ While there are clear standards on how to gzip data in an HTTP response
 doesn't appear to be a standard approach to gzip the data in an HTTP
 request.
 
-We developed a convention internally of using the `Content-Encoding:`
-header on the HTTP request to `gzip` (which mirrors `Accept-Encoding:` on
-browser requests and the resulting `Content-Encoding: gzip` on the response
+We developed a convention internally of using the ``Content-Encoding:``
+header on the HTTP request to ``gzip`` (which mirrors ``Accept-Encoding:`` on
+browser requests and the resulting ``Content-Encoding: gzip`` on the response
 that follows). This also makes the process transparent to underlying
-`Content-Type:` headers.  Our payloads were JSON but this could easily be
+``Content-Type:`` headers.  Our payloads were JSON but this could easily be
 used for XML or any other text-like data.
 
 In testing it also became apparent that very small requests (like small
