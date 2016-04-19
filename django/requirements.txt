@@ -1,0 +1,5 @@
+# the example uses the newer urls format which probably won't work with django<1.7
+Django>=1.8.12
+
+# To test the Django Rest Framework views:
+#djangorestframework>=3.0.0

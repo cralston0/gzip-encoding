@@ -1,0 +1,2 @@
+# 2.4.2 is when the json= parameter was added
+requests>=2.4.2

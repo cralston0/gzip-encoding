@@ -1,0 +1,2 @@
+# this should work as far back as 0.6 we didn't test it
+flask>=0.8
