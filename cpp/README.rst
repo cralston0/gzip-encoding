@@ -11,6 +11,7 @@ Building & Running
 ~~~~~~~~~~~~~~~~~~
 
 ::
+
     $ git submodule update --init --recursive
     $ make
     $ ./client
