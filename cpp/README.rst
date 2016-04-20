@@ -10,12 +10,11 @@ and the useful GZipCodec_ wrapper.
 Building & Running
 ~~~~~~~~~~~~~~~~~~
 
-::
+To compile and run this client: ::
 
     $ git submodule update --init --recursive
     $ make
     $ ./client
-
 
 .. _CPR: https://github.com/whoshuu/cpr
 .. _Requests: http://docs.python-requests.org/en/master/

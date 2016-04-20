@@ -7,5 +7,12 @@ normal. For use in other Flask applications, copy the middleware into your
 own app and register it with ``app.before_request()`` or the
 ``@app.before_request`` decorator.
 
-To test the code ``./run_me`` here and run one of the clients in another
-window.
+Running
+~~~~~~~
+
+To run this server: ::
+
+    $ virtualenv gzip
+    $ pip install -r flask/requirements.txt
+    $ python flask/run_me.py
+

@@ -58,3 +58,9 @@ Show Me The Code
 .. _Django: django/
 .. _Flask: flask/
 
+Testing Locally
+===============
+
+Launch one of the servers (instructions in the each directory). This will
+start a listener on localhost:9000. Now you can run either of the clients,
+which expect to connect to localhost:9000.
