@@ -29,6 +29,10 @@ responses) grow when gzip compressed. It's probably best to put a *minimum*
 bound on content lengths that you will compress --  100-150 bytes is
 reasonable.
 
+Advantages to using Content-Encoding instead of a custom Content-Type header
+is that this will be generally transparent to web frameworks, allowing you
+to continue using any out-of-the-box parsers/helpers/etc.
+
 Use At Your Own Risk
 ====================
 
