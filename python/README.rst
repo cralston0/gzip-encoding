@@ -9,7 +9,7 @@ Running
 
 To run this client: ::
 
-    $ virtualenv gzip-client
+    $ virtualenv gzip
     $ pip install -r requirements.txt
     $ python client.py
 

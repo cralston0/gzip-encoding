@@ -13,6 +13,6 @@ Running
 To run this server: ::
 
     $ virtualenv gzip
-    $ pip install -r flask/requirements.txt
-    $ python flask/run_me.py
+    $ pip install -r requirements.txt
+    $ python run_me.py
 
