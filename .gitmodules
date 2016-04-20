@@ -1,0 +1,6 @@
+[submodule "cpp/cpr"]
+	path = cpp/cpr
+	url = git@github.com:whoshuu/cpr.git
+[submodule "cpp/json"]
+	path = cpp/json
+	url = git://github.com/nlohmann/json.git
