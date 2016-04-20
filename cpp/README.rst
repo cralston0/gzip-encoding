@@ -10,10 +10,10 @@ and the useful GZipCodec_ wrapper.
 Building & Running
 ~~~~~~~~~~~~~~~~~~
 
-    ::
-        $ git submodule update --init --recursive
-        $ make
-        $ ./client
+::
+    $ git submodule update --init --recursive
+    $ make
+    $ ./client
 
 
 .. _CPR: https://github.com/whoshuu/cpr
