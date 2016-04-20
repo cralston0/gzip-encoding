@@ -36,6 +36,11 @@ Using this bare-minimum code, there's a huge potential for a denial of
 service attack since your application server will continue to accept gzip
 content until it runs out of memory.
 
+This can potentially be mitigated by configuring the load balancer or
+reverse proxy (which will almost inevitably be processing traffic for a
+production application server) to limit the HTTP message size, e.g.
+Nginx's ``client_max_body_size`` parameter.
+
 Show Me The Code
 ================
 
